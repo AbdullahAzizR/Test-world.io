@@ -3,7 +3,6 @@ body {
 	font-family: 'Oxygen', sans-serif;
 	background-color: #795548;
 }
-
 #header-nav {
 	background-color: #8d6e63;
 	border: 0;
@@ -31,7 +30,7 @@ span {
 .navbar-brand h1 {
 	font-family:'Lora', serif;
 	font-weight: bold;
-	font: uppercase;
+	font: uppercase; 
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
 	margin-right: 0;
@@ -127,6 +126,9 @@ li a span {
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	h1 {
+		font-size: 1.8em;
+	}
 	.container .jumbotron{
 		background: url("../img/VEDA-Interior-889x592.jpg") no-repeat;
 		height: 592px;
@@ -135,6 +137,9 @@ li a span {
 	}
 }
 @media (max-width: 767px) {
+	h1 {
+		font-size: 1.3em; 
+	}
 	.container .jumbotron{
 		background: url("../img/VEDA-Interior-889x592.jpg") no-repeat;
 		margin-top: 30px;
@@ -152,10 +157,6 @@ li a span {
 	.panel-footer section hr {
 		width: 50%;
 	}
-	#address, #address p {
-	padding: 0 15px;
-	margin: 0 0 30px;
-	text-align: center; }
 }
 .panel-footer {
 	margin-top: 30px;
